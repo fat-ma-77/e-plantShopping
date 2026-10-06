@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { addToCart } from './CartSlice';
+import { addItem } from './CartSlice';
 
 export const plants = [
   { id: 't1', name: 'Golden Pothos', category: 'Air Purifying', price: 18, emoji: '🌿', description: 'A resilient trailing vine that brightens every room.' },
